@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>My Blog</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <div class="container">
+        <a href="index.html"navbar-brand">
+          <i class="fa-solid fa-house"></i>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mobile"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="mobile" class="collapse navbar-collapse">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="pages/blogs.html" class="nav-link">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a href="pages/contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input type="text" class="form-control me-1" placeholder="Search" />
+            <button class="btn btn-warning">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <div class="text-center pt-5 mt-5 px-2 border-bottom">
+        <div class="col-lg-6 mx-auto">
+          <img
+            src="assets/images/blog-resmi.png"
+            class="img-fluid mb-4 border rounded-3 display-4"
+            width="700"
+            alt=""
+          />
+          <div class="mb-5 d-grid gap-2 d-md-flex justify-content-md-center">
+            <button class="btn btn-outline-primary btn-lg">
+              <a
+                href="pages/tarihte-bugun.html"
+                style="text-decoration: none"
+              >
+                <i class="fa-solid fa-caret-right"></i> Tarihte bugün
+              </a>
+            </button>
+          </div>
+          <div class="overflow-hidden" style="max-height: 120vh">
+            <div class="container px-3">
+              <img
+                src="assets/images/bg.png"
+                class="img-fluid border rounded-3 shadow-lg mb-4"
+                width="700"
+                height="500"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="bg-dark px-4 py-5 text-center text-white">
+        <div class="py-5">
+          <h1 class="display-5 fw-bold">Dijital Günlüğüm</h1>
+          <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">
+              Bir yıldız kaydı! <br />
+              Evet, bir yıldız kaymış ve o da duruma şahitlik etmişti. Şaşkındı,
+              çünkü yıldızlar doğaları gereği utangaç varlıklardı. Aslında kayıp
+              gitmelerinin tek sebebi de...
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+              <button class="btn btn-outline-warning btn-lg">
+                <a href="pages/yildiz-kaymasi.html" style="text-decoration: none; color: white" class="johannes-button johannes-button-secondary johannes-button-medium">okumaya devam et »
+                
+              </button>
+              <button class="btn btn-outline-warning btn-lg">
+                <a
+                  href="pages/blogs.html"
+                  style="text-decoration: none; color: violet;"
+                >
+                  <i class="fa-solid fa-caret-right"></i> Tüm yazılarım
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container my-4">
+        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card mb-3 shadow">
+              <a
+                href="pages/kirleniyoruz.html"
+                style="text-decoration: none; color: black"
+              >
+                <img
+                  src="assets/images/kirlilik.jpeg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Kirleniyoruz</h5>
+                  <p class="card-text">
+                    Kirleniyoruz dostlar, kirleniyoruz. Bu önce bir özeleştiri
+                    yazısı. Kimseyi genellemez ve alakadar etmez. Sadece
+                    farkındalık içerir. Gelin sizi kendi iç...
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-3 shadow">
+              <a
+                href="pages/hayat.html"
+                style="text-decoration: none; color: black"
+              >
+                <img
+                  src="assets/images/hayat-bir-dram-mi-komedi-mi.jpeg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Hayat Bir Drama Mı, Yoksa Komedi Mi?
+                  </h5>
+                  <p class="card-text">
+                    İnsan bazen hayatın bir drama mı yoksa komedi mi olduğu
+                    konusunda derin düşüncelere dalıyor. Net bir cevap
+                    bulamamakla birlikte...
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-3 shadow">
+              <a
+                href="pages/bilgi-deneyim.html"
+                style="text-decoration: none; color: black"
+              >
+                <img
+                  src="assets/images/bilgi-deneyim.jpeg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Bilgi vs Deneyim</h5>
+                  <p class="card-text">
+                    Kendimi delice koşar buldum. O bilgiden, bu bilgiye. Şu
+                    kitaptan, bu kitaba. Odaklandığım...
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-3 shadow">
+              <a
+                href="pages/yeni-bir-gun.html"
+                style="text-decoration: none; color: black"
+              >
+                <img
+                  src="assets/images/yeni-gun-kilavuzu.jpeg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Yeni Günü Yaşama Kılavuzu</h5>
+                  <p class="card-text">
+                    Aslında bütün mücadelem bugünün, yarına ve sonraki günlere
+                    benzememesi üzerine kurulu!..
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-3 shadow">
+              <a
+                href="pages/armut-agaci.html"
+                style="text-decoration: none; color: black"
+              >
+                <img
+                 src="assets/images/armut-agaci.jpeg"
+                 class="card-img-top"
+                 alt=""
+               />
+                <div class="card-body">
+                 <h5 class="card-title">Armut Ağacı</h5>
+                 <p class="card-text">
+                  Şubat’ın olmuş yirmisi. Değişmek çok zor. Hiç ne oldum demedim, ne olacağım dedim. Sonra fark ettim ki ne olacağım derken hiçbir şey olamamışım. Hikayenin başında...
+                 </p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-3 shadow">
+              <a
+                href="pages/sen-siz.html"
+                style="text-decoration: none; color: black"
+              >
+                <img
+                 src="assets/images/sen-siz.jpeg"
+                 class="card-img-top"
+                 alt=""
+               />
+                <div class="card-body">
+                 <h5 class="card-title">Siz Yerine Sen Demek ve Türkçedeki Gizli Hitap Hiyerarşisi</h5>
+                 <p class="card-text">
+                  Ekşi Sözlük’te karşıma çıkan bir tartışma başlığı. Bu başlıkta, doktorların, hastalara sen diye hitap etmeleri eleştiriliyor...
+                 </p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="py-5 bg-dark text-white">
+      <div class="container text-center">
+        <span>All Rights Reserved. @2025</span>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
+
+
